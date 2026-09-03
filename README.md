@@ -5,7 +5,7 @@ and reach the goal. The project includes an undo feature and coloured output for
 
 ---
 
-## ▶️ Features
+## Features
 
 - Text‑based map rendered with borders and colours.
 - Player movement using `w`, `a`, `s`, `d` keys.
@@ -16,7 +16,7 @@ and reach the goal. The project includes an undo feature and coloured output for
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - **GNU Make** and a **C compiler** (tested with `gcc`).
 - POSIX‑compatible terminal (ANSI escape codes used for colours).
@@ -24,7 +24,7 @@ and reach the goal. The project includes an undo feature and coloured output for
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 color.c      color.h      gameFunc.c   gameFunc.h
@@ -45,7 +45,7 @@ terminal.c   terminal.h   Makefile
 
 ---
 
-## 🧱 Map Format
+## Map Format
 
 The first line of the map file must contain two integers: number of rows and columns. Subsequent lines represent the grid, with each cell encoded as an integer:
 
@@ -71,7 +71,7 @@ Example (`map.txt`):
 
 ---
 
-## 🚀 Building and Running
+## Building and Running
 
 Open a terminal in the project directory and run:
 
@@ -100,7 +100,7 @@ To use a different map file:
 
 ---
 
-## 🎮 Controls
+## Controls
 
 - `w` – move up
 - `s` – move down
@@ -112,7 +112,7 @@ Moves are processed immediately (no need to press Enter). The screen is cleared 
 
 ---
 
-## 🧩 How the Game Works
+## How the Game Works
 
 1. **Load & validate** the map from the given file.
 2. **Record the initial game state** (player position, map contents).
@@ -128,7 +128,7 @@ Moves are processed immediately (no need to press Enter). The screen is cleared 
 
 ---
 
-## 📦 Extending the Project
+## Extending the Project
 
 This codebase is small and modular; here are some ideas for enhancements:
 
@@ -139,7 +139,7 @@ This codebase is small and modular; here are some ideas for enhancements:
 
 ---
 
-## 📄 License & Credits
+## License & Credits
 
 This assignment project was developed by **Bhagwat Ajaykumar Patel** for a university course.
 
